@@ -27,7 +27,7 @@ $backupName = Get-Date -Format "yyyy_MM_dd__HH-mm-ss"
 
 ### Change if you want the log file on a different path ###
 ### or with a different name                            ###
-$logFolder = "$($gameFolder)\7DaysToDie_Data"
+$logFolder = "$($userDataFolder)\logs"
 $logName = "output_log_$(Get-Date -Format `"yyyy_MM_dd__HH-mm-ss`").txt"
 
 ### Uncomment to remove old log files and            ###
